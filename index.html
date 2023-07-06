@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Ku</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="Navbar">
+      <a href="#" class="Navbar-logo">Porto<span>Folioku</span></a>
+
+      <div class="Navbar-nav">
+        <a href="#">Home</a>
+        <a href="#About">About Me</a>
+        <a href="#Design">My Design</a>
+        <a href="#Contact">Contact Me</a>
+      </div>
+
+      <div class="Navbar-extra">
+        <a href="#" id="Profile"><i data-feather="user"></i></a>
+        <a href="#" id="Menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="Home">
+      <main class="content">
+        <h1>Selamat Datang Di <span>PortoFolioKu</span></h1>
+        <p>
+          Berisi semua hasil dari design ku mulai dari kelas 10 sampai dengan
+          kelas 12.
+        </p>
+        <a href="#" class="cta">Lihat Design</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="About" class="about">
+      <h2><span>About</span> Me</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/About-Me.jpg" alt="About Me" />
+        </div>
+
+        <div class="content">
+          <h3>Biografi Singkat Tentang Diriku</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repudiandae culpa doloribus, asperiores iure sed quaerat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus aut autem obcaecati dignissimos ullam totam sequi odio,
+            inventore aperiam reprehenderit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Design Section Start -->
+
+    <section id="Design" class="desain">
+      <h2>My <span>Design</span></h2>
+      <p>
+        Berikut adalah beberapa design yang telah saya buat selama menjadi
+        seorang pelajar.
+      </p>
+
+      <div class="row">
+        <div class="desain-card">
+          <img
+            src="img/kontak/wa-img.jpg"
+            alt="facebook"
+            class="desain-card-img"
+          />
+          <h3 class="desain-card-title">Whatsapp</h3>
+          <p class="desain-card-name">0812 2856 7688</p>
+        </div>
+        <div class="desain-card">
+          <img
+            src="img/kontak/ig-img.jpg"
+            alt="facebook"
+            class="desain-card-img"
+          />
+          <h3 class="desain-card-title">Instagram</h3>
+          <p class="desain-card-name">naayyo_o</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="Contact" class="kontak">
+      <h2><span>Contact</span> Me</h2>
+      <p>Berikut adalah Kontak saya yang teman teman bisa hubungi.</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.019620357879!2d110.52132089999999!3d-7.006972299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d80eaff1b7b%3A0x5b3b5efda741789f!2sSAQUEENA%20HIJAB!5e0!3m2!1sen!2sid!4v1688568080991!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-grup">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="sosials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="phone"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#About">About Me</a>
+        <a href="#Design">My Design</a>
+        <a href="#Contact">Contact Me</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href="">Nayotama</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Java Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
